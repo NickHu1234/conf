@@ -16,7 +16,7 @@ array (
 )
 */
 $name = $_POST['name'];
-#$name = test3
+$name = test3
 $pass = $_POST['pass'];
 $pass = 123456
 
