@@ -16,11 +16,11 @@ array (
 )
 */
 $name = $_POST['name'];
-$name = test3
+#$name = 'test';
 $pass = $_POST['pass'];
-$pass = 123456
+#$pass = '123456';
 
- if(empty($name) || empty($pass)){
+if(!('test'==$name&&'123456'==$pass)){
     echo "串码流不正确";
     // 这个是thinkphp5的返回头信息的函数
      header("HTTP/1.1 404 Not Found");  
